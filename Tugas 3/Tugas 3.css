@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    border: none;
+    background-color: rgb(6, 0, 125);
+    color: white;
+    border-radius: 10px;
+}
+
+nav {
+    border: none;
+    background-color: rgb(184, 107, 0, 0.759);
+    color: white;
+    border-radius: 10px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: rgb(0, 184, 132);
+    border-radius: 20px;
+    color: white;
+}
+
+img {
+    width: 160px;
+    background-color: rgb(0, 184, 132);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+}
+
+iframe {
+    width: 420px;
+    height: 230px;
+    background-color: rgb(0, 184, 132);
+    border-radius: 10px;
+    color: rgb(210, 67, 15);
+}
+
+button {
+    border: none;
+    background-color: rgb(0, 19, 125);
+    color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }   
+    
+    iframe {
+        width: 210px;
+        height: 115px;
+        background-color: rgb(06, 0, 125);
+        border-radius: 10px;
+        color: white;
+    }
+
+    img {
+        width: 70px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        color: white;
+    }
+
+    table {
+        width: 100px;
+        border: none;
+        background-color: rgb(6, 0, 125);
+        color: white;
+        border-radius: 10px;
+    }
+}
